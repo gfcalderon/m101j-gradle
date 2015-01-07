@@ -24,7 +24,13 @@ public class HelloWorldSparkFreemarkerMongoDB {
         DB database = client.getDB( "course" );
         DBCollection collection = database.getCollection( "hello" );
 
-        Spark.get( "/", ( request, response ) -> {
+        Spark.get( "/", ( request, response ) -> "Hello World\n" );
+
+        Spark.get( "/test", ( request, response ) -> "This is a test page\n" );
+
+        Spark.get( "/echo/:thing", ( request, response ) -> request.params( ":thing" ) );
+
+        Spark.get( "/mongo", ( request, response ) -> {
 
             StringWriter writer = new StringWriter();
 
