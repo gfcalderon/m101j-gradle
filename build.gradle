@@ -1,4 +1,4 @@
-apply plugin: 'java'
+apply plugin: 'jetty'
 
 repositories {
     jcenter()
@@ -6,7 +6,9 @@ repositories {
 
 dependencies {
     compile         "org.slf4j:slf4j-api:$slf4jVersion",
-                    "org.mongodb:mongo-java-driver:$mongoJavaDriverVersion"
+                    "org.mongodb:mongo-java-driver:$mongoJavaDriverVersion",
+                    "com.sparkjava:spark-core:$sparkVersion",
+                    "org.freemarker:freemarker:$freemakerVersion"
 
     testCompile     "junit:junit:$junitVersion"
 }

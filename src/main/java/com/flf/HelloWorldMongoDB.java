@@ -1,3 +1,5 @@
+package com.flf;
+
 import com.mongodb.*;
 
 import java.net.UnknownHostException;
