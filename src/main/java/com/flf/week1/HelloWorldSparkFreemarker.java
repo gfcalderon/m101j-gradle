@@ -1,4 +1,4 @@
-package com.flf;
+package com.flf.week1;
 
 import freemarker.template.Configuration;
 import freemarker.template.Template;

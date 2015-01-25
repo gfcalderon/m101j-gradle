@@ -1,4 +1,4 @@
-package com.flf;
+package com.flf.week1;
 
 import com.mongodb.*;
 
