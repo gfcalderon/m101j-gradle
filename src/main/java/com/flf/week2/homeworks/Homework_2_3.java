@@ -1,4 +1,4 @@
-package com.flf.homework2;
+package com.flf.week2.homeworks;
 
 import com.mongodb.*;
 
@@ -8,7 +8,7 @@ import java.net.UnknownHostException;
  * User: Gerardo Fernández
  * Date: 25/01/2015
  */
-public class Homework_2_2 {
+public class Homework_2_3 {
 
     public static void printCursor( DBCursor cursor ) {
         try {
